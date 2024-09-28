@@ -1,0 +1,14 @@
+{
+  "action": {
+    "default_popup": "bubble.html",
+    "default_title": "PW Test"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "description": "Test Playwright route handler when chromium extension creates new tab",
+  "manifest_version": 3,
+  "name": "PW Test",
+  "permissions": ["tabs"],
+  "version": "0.1.0"
+}
